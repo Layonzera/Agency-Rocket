@@ -9,8 +9,8 @@ body {
 }
 
 nav {
-  width: 1000px;
-  margin: 0 auto;
+  width: 1200px;
+  margin: 42px auto 37px;
   display: flex;
   align-items: center;
 }
@@ -33,4 +33,28 @@ nav {
   align-items: center;
 }
 
+ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
 
+ul li a:hover {
+  color: #2196f3;
+  opacity: 0.75;
+}
+
+ul li button {
+  background: #2196f3;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+}
