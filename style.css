@@ -8,15 +8,24 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.image-background img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
 nav {
   width: 1200px;
   margin: 42px auto 37px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #logo {
   margin-right: 64px;
+  cursor: pointer;
 }
 
 #right {
@@ -57,4 +66,79 @@ ul li button {
   text-transform: uppercase;
   color: #fff;
   cursor: pointer;
+}
+
+nav ul img {
+  cursor: pointer;
+}
+
+main {
+  width: 1200px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  margin-top: 70px;
+  width: 400px;
+}
+
+section h1 {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+section p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 24px;
+}
+
+section button {
+  color: #00bcd4;
+  background: none;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 16px 22px;
+  border: 1px solid #00bcd4;
+  box-shadow: 0px 3px 24px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.content h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.content h1:hover {
+  color: #2196f3;
+}
+
+.content p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.line {
+  border: 1px solid rgba(0, 0, 0, 0.12);
 }
